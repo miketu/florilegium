@@ -73,6 +73,25 @@ plot_value_combine <- rbind(plot_value_1,plot_value_2)
 
 ggplot(data=plot_value_combine,aes(x=x,y=probabilities,color=as.factor(sigma)))+geom_point()
 
+# Normal Distribution vs. T-Distribution --------------------------------------
+
+mu = 0
+spread_1=1
+student_df=1
+
+vals <- seq(-10,10,length=500)
+
+plot_value_1 <- data.frame(x=vals,sigma="normal") %>%
+							mutate(probabilities=dnorm(vals,mean=mu,sd=spread_1))
+					
+plot_value_2 <- data.frame(x=vals,sigma="student t") %>%
+	mutate(probabilities=dt(vals,df=student_df))
+
+plot_value_combine <- rbind(plot_value_1,plot_value_2)
+		
+ggplot(data=plot_value_combine,aes(x=x,y=probabilities,color=as.factor(sigma)))+geom_point()#+ylim(c(0.0,0.4))+xlim(c(-1,1))
+
+
 # Normal Distribution and T-tests ---------------------------------------------------
 
 
