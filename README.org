@@ -1,0 +1,3 @@
+Short scripts that can be useful for a "crash course" in probability and statistics basics using R.
+
+
