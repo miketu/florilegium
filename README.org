@@ -1,5 +1,5 @@
 * Introduction
-This repository consists of small scripts that can be useful for a "crash course" in R, data science, and probability and statistics.
+This repository consists of small scripts that can be useful for a "crash course" in R, data science, and probability and statistics. Inspired by a lot of different sources.
 
 * Basic Data Analysis
 
