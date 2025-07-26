@@ -1,5 +1,5 @@
 * Introduction
-This repository consists of dhort scripts that can be useful for a "crash course" in probability and statistics basics using R.
+This repository consists of small scripts that can be useful for a "crash course" in R, data science, and probability and statistics.
 
 * Basic Data Analysis
 
