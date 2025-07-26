@@ -1,3 +1,16 @@
-Short scripts that can be useful for a "crash course" in probability and statistics basics using R.
+* Introduction
+This repository consists of dhort scripts that can be useful for a "crash course" in probability and statistics basics using R.
+
+* Basic Data Analysis
+
+ggplot-basic-diamond.R - Basic of many kinds of plots using ggplot
+tidyverse-basic-data-summary.R - Using tidyverse filtering/summary methods
+
+* Basic Probability and Statistics
+
+dice-or-coin-flip-animation.R -  Live animation of coin flips or dice rolls. 
+distribution-demo.R - Walks through binomial, normal, and t distributions, with some intuition on t-tests.
+t-test-basics.R - Example of performing a t-test on a dataset
+least-squares-animation.R - Live animation of how linear regression works.
 
 
