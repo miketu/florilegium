@@ -18,3 +18,6 @@ t-test-basics.R - Example of performing a t-test on a dataset
 least-squares-animation.R - Live animation of how linear regression works.
 
 
+* Simulations
+
+bouncing-ball.R  - R simulation of bouncing ball
