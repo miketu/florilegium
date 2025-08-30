@@ -5,19 +5,19 @@ This repository consists of small scripts that can be useful for a "crash course
 
 [[ggplot-basic-diamond-plots.R]] - Basic of many kinds of plots using ggplot
 
-tidyverse-basic-data-summary.R - Using tidyverse filtering/summary methods
+[[tidyverse-basic-data-summary.R]] - Using tidyverse filtering/summary methods
 
 * Basic Probability and Statistics
 
-dice-or-coin-flip-animation.R -  Live animation of coin flips or dice rolls. 
+[[dice-or-coin-flip-animation.R]] -  Live animation of coin flips or dice rolls. 
 
-distribution-demo.R - Walks through binomial, normal, and t distributions, with some intuition on t-tests.
+[[distribution-demo.R]] - Walks through binomial, normal, and t distributions, with some intuition on t-tests.
 
-t-test-basics.R - Example of performing a t-test on a dataset
+[[t-test-basics.R]] - Example of performing a t-test on a dataset
 
-least-squares-animation.R - Live animation of how linear regression works.
+[[least-squares-animation.R]] - Live animation of how linear regression works.
 
 
 * Simulations
 
-bouncing-ball.R  - R simulation of bouncing ball
+[[bouncing-ball.R]]  - R simulation of bouncing ball
