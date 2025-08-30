@@ -1,11 +1,7 @@
 * Introduction
 This repository consists of small scripts that can be useful for a "crash course" in R, data science, and probability and statistics. Inspired by a lot of different sources.
 
-* Basic Data Analysis
 
-[[ggplot-basic-diamond-plots.R]] - Basic of many kinds of plots using ggplot
-
-[[tidyverse-basic-data-summary.R]] - Using tidyverse filtering/summary methods
 
 * Basic Probability and Statistics
 
@@ -16,6 +12,12 @@ This repository consists of small scripts that can be useful for a "crash course
 [[t-test-basics.R]] - Example of performing a t-test on a dataset
 
 [[least-squares-animation.R]] - Live animation of how linear regression works.
+
+* Basic Data Analysis
+
+[[ggplot-basic-diamond-plots.R]] - Basic of many kinds of plots using ggplot
+
+[[tidyverse-basic-data-summary.R]] - Using tidyverse filtering/summary methods
 
 
 * Simulations
