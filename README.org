@@ -3,7 +3,7 @@ This repository consists of small scripts that can be useful for a "crash course
 
 * Basic Data Analysis
 
-[[ggplot-basic-diamond.R]] - Basic of many kinds of plots using ggplot
+[[ggplot-basic-diamond-plots.R]] - Basic of many kinds of plots using ggplot
 
 tidyverse-basic-data-summary.R - Using tidyverse filtering/summary methods
 
