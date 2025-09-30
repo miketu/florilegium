@@ -1,5 +1,5 @@
 * Introduction
-This repository is a florilegium of scripts in mathematics, modeling, programming, and data analysis that I found interesting. 
+This repository is a florilegium of things in mathematics, modeling, programming, and data analysis that I found interesting. 
 
 
 * Basic Probability and Statistics
