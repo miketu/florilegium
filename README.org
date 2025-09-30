@@ -1,6 +1,5 @@
 * Introduction
-This repository consists of small scripts that can be useful for a "crash course" in R, data science, probability, statistics, and modeling/simulation. Inspired by a lot of different sources.
-
+This repository is a florilegium of scripts in mathematics, modeling, programming, and data analysis that I found interesting. 
 
 
 * Basic Probability and Statistics
