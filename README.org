@@ -22,3 +22,7 @@ This repository is a florilegium of things in mathematics, modeling, programming
 * Simulations
 
 [[bouncing-ball.R]]  - R simulation of bouncing ball
+
+* Utilities
+
+[[pdf_combiner.R]]- joining together pdf files
