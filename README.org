@@ -1,28 +1,22 @@
-* Introduction
-This repository is a collection of code fragments that useful (or fun)! 
 
 
-* Probability and Statistics
+This repository is a collection of code fragments that are useful (or fun)! 
 
-[[dice-or-coin-flip-animation.R]] -  Live animation of coin flips or dice rolls. 
-
-[[distribution-demo.R]] - Walks through binomial, normal, and t distributions, with some intuition on t-tests.
-
-[[t-test-basics.R]] - Example of performing a t-test on a dataset
-
-[[least-squares-animation.R]] - Live animation of how linear regression works.
 
 * Data Analysis
-
+** Probability and Statistics Basics
+[[dice-or-coin-flip-animation.R]] -  Live animation of coin flips or dice rolls. 
+[[distribution-demo.R]] - Walks through binomial, normal, and t distributions, with some intuition on t-tests.
+[[t-test-basics.R]] - Example of performing a t-test on a dataset
+[[least-squares-animation.R]] - Live animation of how linear regression works.
+** Data Analysis
 [[ggplot-basic-diamond-plots.R]] - Basic of many kinds of plots using ggplot
-
 [[tidyverse-basic-data-summary.R]] - Using tidyverse filtering/summary methods
 
-
-* Simulations
+* Mathematics and Simulations
 
 [[bouncing-ball.R]]  - R simulation of bouncing ball
 
-* Utilities
+* General Utilities
 
 [[pdf_combiner.R]]- joining together pdf files
