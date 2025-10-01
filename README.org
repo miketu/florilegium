@@ -3,8 +3,7 @@
 This repository is a collection of code fragments that are useful (or fun)! 
 
 
-* Data Analysis
-** Probability and Statistics Basics
+* Probability and Statistics Basics
 
 [[dice-or-coin-flip-animation.R]] -  Live animation of coin flips or dice rolls. 
 
@@ -14,7 +13,7 @@ This repository is a collection of code fragments that are useful (or fun)!
 
 [[least-squares-animation.R]] - Live animation of how linear regression works.
 
-** Data Analysis
+* Data Analysis
 
 [[ggplot-basic-diamond-plots.R]] - Basic of many kinds of plots using ggplot
 
