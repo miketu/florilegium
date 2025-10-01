@@ -2,7 +2,7 @@
 This repository is a florilegium of things in mathematics, modeling, programming, and data analysis that I found interesting. 
 
 
-* Basic Probability and Statistics
+* Probability and Statistics
 
 [[dice-or-coin-flip-animation.R]] -  Live animation of coin flips or dice rolls. 
 
@@ -12,7 +12,7 @@ This repository is a florilegium of things in mathematics, modeling, programming
 
 [[least-squares-animation.R]] - Live animation of how linear regression works.
 
-* Basic Data Analysis
+* Data Analysis
 
 [[ggplot-basic-diamond-plots.R]] - Basic of many kinds of plots using ggplot
 
