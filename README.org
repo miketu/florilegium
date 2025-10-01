@@ -1,5 +1,5 @@
 * Introduction
-This repository is a collection of code fragments that are utilities, simulations, data analysis examples, or just general fun! 
+This repository is a collection of code fragments that useful (or fun)! 
 
 
 * Probability and Statistics
