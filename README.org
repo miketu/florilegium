@@ -1,5 +1,5 @@
 * Introduction
-This repository is a florilegium of things in mathematics, modeling, programming, and data analysis that I found interesting. 
+This repository is a collection of code fragments that are utilities, simulations, data analysis examples, or just general fun! 
 
 
 * Probability and Statistics
