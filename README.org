@@ -1,9 +1,9 @@
-* Introduction
+#+TITLE: Collection of Code Fragments
 
 This repository is a collection of code fragments that are useful (or fun)! 
 
 
-_Probability and Statistics Basics_
+* Probability and Statistics Basics
 
 [[dice-or-coin-flip-animation.R]] -  Live animation of coin flips or dice rolls. 
 
@@ -13,18 +13,18 @@ _Probability and Statistics Basics_
 
 [[least-squares-animation.R]] - Live animation of how linear regression works.
 
-_Data Analysis_
+* Data Analysis
 
 [[ggplot-basic-diamond-plots.R]] - Basic of many kinds of plots using ggplot
 
 [[tidyverse-basic-data-summary.R]] - Using tidyverse filtering/summary methods
 
-_Mathematics and Simulations_
+* Mathematics and Simulations
 
 [[bouncing-ball.R]]  - R simulation of bouncing ball
 
 [[stock_monte_carlo.R]] - R simulation of stock returns from historical values
 
-_General Utilities_
+* General Utilities
 
 [[pdf_combiner.R]]- joining together pdf files
