@@ -1,4 +1,4 @@
-#+TITLE: Mathematical Modeling Techniques
+#+TITLE: Calculation Methods in Science and Engineering
 
 This repository is a collection of code fragments that are useful (or fun)! 
 
