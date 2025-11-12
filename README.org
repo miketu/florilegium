@@ -2,7 +2,6 @@
 
 This repository is a collection of code fragments that are useful (or fun)! 
 
-
 * Probability and Statistics Basics
 
 [[dice-or-coin-flip-animation.R]] -  Live animation of coin flips or dice rolls. 
