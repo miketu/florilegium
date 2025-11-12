@@ -1,4 +1,4 @@
-#+TITLE: Collection of Code Fragments
+#+TITLE: Mathematical Modeling for Engineering and Science
 
 This repository is a collection of code fragments that are useful (or fun)! 
 
