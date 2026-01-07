@@ -1,4 +1,4 @@
-#+TITLE: Mathematical/Computational Tools in Science and Engineering
+#+TITLE: Mathematical/Computational Tools
 
 This repository is a collection of code fragments that are useful (or fun)! 
 
