@@ -27,3 +27,4 @@ This repository is a collection of code fragments that are useful (or fun)!
 * General Utilities
 
 [[pdf_combiner.R]]- joining together pdf files
+[[table_combining.org]] - Joining together tables in Org-mode
