@@ -1,4 +1,5 @@
-This repository is a collection of code fragments that are useful (or fun)! 
+#+TITLE: Mathematical Modeling for Science and Engineering
+This repository is a collection of code fragments that are useful for learning or solving problems in R.
 
 * 💻⚙️Data Science Programming in R Basics
 
