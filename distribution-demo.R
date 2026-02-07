@@ -121,3 +121,16 @@ ggplot(data=plot_value_combine,aes(x=x,y=probabilities,color=as.factor(sigma)))+
   ggplot()+
       geom_density()+geom_density(data=sampler_1,aes(x=vals),alpha=0.8,fill="red")+geom_density(data=sampler_2,aes(x=vals),alpha=0.8,fill="green")
 
+ # T-test on a real world dataset
+  require(NHANES)
+  require(tidyverse)
+
+  a <- NHANES |>
+      filter(!is.na(PhysActive))
+
+  ggplot(a)+geom_boxplot(aes(x=PhysActive,y=Weight))
+
+  exercises <- filter(a,PhysActive=="Yes")
+  slackers <- filter(a,PhysActive=="No")
+
+  t.test(exercises$Weight,slackers$Weight)
