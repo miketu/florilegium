@@ -1,22 +1,23 @@
-require(tidyverse)
+
 # Animation to Show Off Coin Flips and Dice Tosses! ------------------------
 
 library(animation)
-ani.options(interval = 0.05, nmax = 500)
+ani.options(interval = 0.01, nmax = 50)
 
+flip.coin(faces = c("Head",  "Tail"), type = "n", prob = c(0.5, 0.5)) ## "Fair coin"
 flip.coin(faces = c("Head",  "Tail"), type = "n", prob = c(0.8, 0.2)) ## "Cheating coin"
 
 flip.coin(faces = c(1,2,3,4,5,6), type = "n", prob = c(1/6, 1/6,1/6,1/6,1/6,1/6),col=c(1,2,3,4,5,6)) ## "Six Sided Dice"
 
 # Individual Case of a coin flip ---------------------------
-
-individual_demo <- sample(seq(1:2),size=10,replace=TRUE,prob=c(0.5,0.5)) |>
+require(tidyverse)
+individual_demo <- sample(c("Heads","Tails"),size=10,replace=TRUE,prob=c(0.5,0.5)) |>
     as.data.frame() |>
     rename(rolls = 1)
 
 ggplot(individual_demo)+
     theme_bw()+
-    geom_histogram(aes(x=rolls))
+    geom_bar(aes(x=as.factor(rolls)))+ylim(c(0,10))
 
 
 # Trial of Trials (Discrete Case) ---------------------------------------
@@ -25,11 +26,11 @@ ggplot(individual_demo)+
 fair_coin_values <- data.frame()
 unfair_coin_values <- data.frame()
 
-for(x in 1:500)
+for(x in 1:5)
 {
     fair_coin_values <- rbind(fair_coin_values,sum(sample(seq(1:2),size=10,replace=TRUE)==1)) #Fair Dice
-    unfair_coin_values <- rbind(unfair_coin_values,sum(sample(seq(1:2),size=10,replace=TRUE,prob=c(0.75,0.25))==1))
-
+    unfair_coin_values <- rbind(unfair_coin_values,sum(sample(seq(1:2),size=10,replace=TRUE,prob=c(0.65,0.35))==1))
+    
 }
 
 collected_values <- data.frame(fair_coin_values,unfair_coin_values) |>
@@ -37,6 +38,47 @@ collected_values <- data.frame(fair_coin_values,unfair_coin_values) |>
 
 ggplot(data=collected_values)+geom_histogram(aes(x=faircoin),binwidth=0.5,fill="green",alpha=0.3)+geom_histogram(aes(x=unfaircoin),binwidth=0.5,fill="red",alpha=0.5)
 
-ggplot(data=collected_values)+geom_density(aes(x=faircoin),fill="green",alpha=0.1)+geom_density(aes(x=unfaircoin),fill="red",alpha=0.1)
+#ggplot(data=collected_values)+geom_density(aes(x=faircoin),fill="green",alpha=0.1)+geom_density(aes(x=unfaircoin),fill="red",alpha=0.1)
+
+# We can approximate the "shape" of this curve with the "Beta Distribution"
+
 
 # How do we detect a cheating coin? -----------------------------------
+
+require(rethinking)
+require(tidyverse)
+
+ggplot(data.frame(mu=c(-50,50)),aes(mu))+stat_function(fun= \(mu) dnorm(mu,8,0.1)) # Plot of Mu
+ggplot(data.frame(sigma=c(-1,5)),aes(sigma))+stat_function(fun= \(sigma) dexp(sigma,1)) # Plot of Sigma
+
+priors <- alist(
+                y ~ dnorm(mu,sigma),
+                 mu ~ dnorm(8,0.1), 
+                sigma ~ dnorm(1)
+)
+
+unfair_fit <- quap(
+            priors,
+            data=list(y=collected_values$unfaircoin),
+            start=list(mu=5,sigma=1)
+            )
+
+summary(unfair_fit)
+
+fair_fit <- quap(
+    priors,
+    data=list(y=collected_values$faircoin),
+    start=list(mu=5,sigma=1)
+)
+
+summary(fair_fit)
+
+
+ggplot(data=collected_values,aes(x=faircoin))+
+    geom_histogram(aes(y=..density..),binwidth=0.5,fill="green",alpha=0.3)+ 
+      stat_function(color="red",fun = \(faircoin) dnorm(faircoin,summary(fair_fit)$mean[1],summary(fair_fit)$mean[2]))+
+      stat_function(color="blue",fun = \(faircoin) dnorm(faircoin,8,0.1))+
+      xlim(c(-50,50))
+     
+
+            
