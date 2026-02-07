@@ -1,4 +1,12 @@
 require(tidyverse)
+# Animation to Show Off Coin Flips and Dice Tosses! ------------------------
+
+library(animation)
+ani.options(interval = 0.05, nmax = 500)
+
+flip.coin(faces = c("Head",  "Tail"), type = "n", prob = c(0.8, 0.2)) ## "Cheating coin"
+
+flip.coin(faces = c(1,2,3,4,5,6), type = "n", prob = c(1/6, 1/6,1/6,1/6,1/6,1/6),col=c(1,2,3,4,5,6)) ## "Six Sided Dice"
 
 # Individual Case of a coin flip ---------------------------
 
@@ -31,3 +39,4 @@ ggplot(data=collected_values)+geom_histogram(aes(x=faircoin),binwidth=0.5,fill="
 
 ggplot(data=collected_values)+geom_density(aes(x=faircoin),fill="green",alpha=0.1)+geom_density(aes(x=unfaircoin),fill="red",alpha=0.1)
 
+# How do we detect a cheating coin? -----------------------------------
