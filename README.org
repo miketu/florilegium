@@ -8,8 +8,6 @@ This repository is a collection of code fragments that are useful (or fun)!
 
 [[distribution-demo.R]] - Walks through binomial, normal, and t distributions, with some intuition on t-tests.
 
-[[t-test-basics.R]] - Example of performing a t-test on a dataset
-
 [[least-squares-animation.R]] - Live animation of how linear regression works.
 
 * Data Analysis
