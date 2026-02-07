@@ -2,7 +2,13 @@
 
 This repository is a collection of code fragments that are useful (or fun)! 
 
-* Probability and Statistics Basics
+* 💻⚙️Data Science Programming in R Basics
+
+[[ggplot-basic-diamond-plots.R]] - Basic of many kinds of plots using ggplot
+
+[[tidyverse-basic-data-summary.R]] - Using tidyverse filtering/summary methods
+
+* 👨‍🏫📊 Probability and Statistics Theory Intuition 
 
 [[rigged_coin_flips.R]] -  Using coins and rigged coins to demonstrate probability/statistics concepts
 
@@ -10,20 +16,14 @@ This repository is a collection of code fragments that are useful (or fun)!
 
 [[least-squares-animation.R]] - Live animation of how linear regression works.
 
-* Data Science Programming in R Basics
 
-[[ggplot-basic-diamond-plots.R]] - Basic of many kinds of plots using ggplot
+* 🔨 Utilities  & 🚀Fun Projects 
 
-[[tidyverse-basic-data-summary.R]] - Using tidyverse filtering/summary methods
+🔨 [[pdf_combiner.R]]- joining together pdf files
 
-* Mathematics and Simulations
+🔨 [[table_combining.org]] - Joining together tables in Org-mode
 
-[[bouncing-ball.R]]  - R simulation of bouncing ball
+🚀 [[bouncing-ball.R]]  - R simulation of bouncing ball
 
-[[stock_monte_carlo.R]] - R simulation of stock returns from historical values
+🚀 [[stock_monte_carlo.R]] - R simulation of stock returns from historical values
 
-* General Utilities
-
-[[pdf_combiner.R]]- joining together pdf files
-
-[[table_combining.org]] - Joining together tables in Org-mode
