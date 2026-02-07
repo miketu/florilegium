@@ -1,5 +1,3 @@
-#+TITLE:🌴🌳🌲  A Garden of Tools in Science and Engineering 🌻🌼🌹
-This repository is a collection of fragments that I've 
 
 * 💻⚙️Data Science Programming in R Basics
 
