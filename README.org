@@ -1,5 +1,3 @@
-#+TITLE: Mathematical Modeling
-
 This repository is a collection of code fragments that are useful (or fun)! 
 
 * 💻⚙️Data Science Programming in R Basics
