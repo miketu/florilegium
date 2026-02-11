@@ -1,5 +1,5 @@
 
-* 💻⚙️Programming (R Basics)
+* 💻⚙️Programming
 
 [[ggplot-basic-diamond-plots.R]] - Basic of many kinds of plots using ggplot
 
