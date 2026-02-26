@@ -1,5 +1,9 @@
+* 🤩🖥️ Programming in Euphoria Language
+[[https://github.com/OpenEuphoria/euphoria/releases]] - Download the latest Euphoria release and install it
+[[https://jmeubank.github.io/tdm-gcc/]] - If using windows install the TDM-GCC compiler
 
-* 💻⚙️Programming
+
+* 💻⚙️Programming in R
 
 [[ggplot-basic-diamond-plots.R]] - Basic of many kinds of plots using ggplot
 
