@@ -1,6 +1,8 @@
 * 🤩🖥️ Programming in Euphoria Language
-[[https://github.com/OpenEuphoria/euphoria/releases]] - Download the latest Euphoria release and install it
-[[https://jmeubank.github.io/tdm-gcc/]] - If using windows install the TDM-GCC compiler
+[[https://github.com/OpenEuphoria/euphoria/releases][Euphoria Language Releases]] - Download the latest Euphoria release and install it
+
+
+[[https://jmeubank.github.io/tdm-gcc/][TDMGCC for C compilation] - If using windows install the TDM-GCC compiler
 
 
 * 💻⚙️Programming in R
